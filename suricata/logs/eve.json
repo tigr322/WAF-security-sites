@@ -1,0 +1,193 @@
+[1 - Suricata-Main] 2025-10-24 11:37:36 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 11:37:36 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-24 11:37:36 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-10-24 11:37:38 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 11:45:38 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 11:45:39 Notice: device: eth0: packets: 99, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 11:46:14 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 11:46:14 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-24 11:46:14 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-10-24 11:46:15 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 11:50:25 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 11:50:25 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-24 11:50:25 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-10-24 11:50:26 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 12:07:37 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 12:07:39 Notice: device: eth0: packets: 9, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 12:08:22 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 12:08:22 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-24 12:08:22 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-10-24 12:08:23 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 12:10:13 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 12:10:15 Notice: device: eth0: packets: 21, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 12:12:02 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 12:12:02 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-24 12:12:02 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-10-24 12:12:03 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 12:12:54 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 12:12:55 Notice: device: eth0: packets: 0, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 12:13:09 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 12:13:09 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-24 12:13:09 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-10-24 12:13:10 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 12:14:18 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 12:14:19 Notice: device: eth0: packets: 18, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 12:15:33 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 12:15:33 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-24 12:15:34 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-10-24 12:15:34 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 12:41:29 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 12:41:30 Notice: device: eth0: packets: 72, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 12:44:41 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 12:44:41 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-10-24 12:44:42 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 12:48:16 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 12:48:18 Notice: device: eth0: packets: 44, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 12:50:09 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 12:50:10 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 12:51:00 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 12:51:01 Notice: device: eth0: packets: 18, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 12:52:12 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 12:52:13 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 12:52:39 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 12:52:41 Notice: device: eth0: packets: 13, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 12:54:45 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 12:54:46 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 13:02:12 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 13:02:13 Notice: device: eth0: packets: 33, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 13:02:14 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 13:02:15 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 13:02:49 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 13:02:50 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-24 13:19:38 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-24 13:19:39 Notice: device: eth0: packets: 20, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-24 13:19:41 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-24 13:19:42 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 06:02:43 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:02:46 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 06:04:31 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 06:04:32 Notice: device: eth0: packets: 28, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 06:04:34 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:04:35 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 06:10:45 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 06:10:46 Notice: device: eth0: packets: 34, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 06:10:48 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:10:49 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 06:13:35 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 06:13:37 Notice: device: eth0: packets: 19, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 06:13:39 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:13:40 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 06:18:36 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 06:18:37 Notice: device: eth0: packets: 25, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 06:18:39 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:18:40 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 06:34:58 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 06:34:59 Notice: device: eth0: packets: 34, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 06:38:06 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:38:06 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 06:41:53 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 06:41:55 Notice: device: eth0: packets: 26, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 06:41:57 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:41:58 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 06:51:25 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 06:51:26 Notice: device: eth0: packets: 12, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 06:57:57 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:57:57 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:57:57 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:57:57 Error: af-packet: any: failed to find interface type: No such device
+[21 - W#01-any] 2025-10-27 06:57:58 Error: af-packet: any: failed to find interface: No such device
+[21 - W#01-any] 2025-10-27 06:57:58 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:57:58 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 06:57:59 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:57:59 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:57:59 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:57:59 Error: af-packet: any: failed to find interface type: No such device
+[20 - W#01-any] 2025-10-27 06:57:59 Error: af-packet: any: failed to find interface: No such device
+[20 - W#01-any] 2025-10-27 06:57:59 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:57:59 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 06:58:00 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:58:00 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:58:00 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:58:00 Error: af-packet: any: failed to find interface type: No such device
+[21 - W#01-any] 2025-10-27 06:58:00 Error: af-packet: any: failed to find interface: No such device
+[21 - W#01-any] 2025-10-27 06:58:00 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:58:00 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 06:58:01 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:58:01 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:58:01 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:58:02 Error: af-packet: any: failed to find interface type: No such device
+[20 - W#01-any] 2025-10-27 06:58:02 Error: af-packet: any: failed to find interface: No such device
+[20 - W#01-any] 2025-10-27 06:58:02 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:58:02 Error: threads: thread "W#01-any" failed to start: flags 0023
+[1 - Suricata-Main] 2025-10-27 06:58:03 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:58:03 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:58:03 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:58:03 Error: af-packet: any: failed to find interface type: No such device
+[20 - W#01-any] 2025-10-27 06:58:03 Error: af-packet: any: failed to find interface: No such device
+[20 - W#01-any] 2025-10-27 06:58:03 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:58:03 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 06:58:05 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:58:05 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:58:05 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:58:05 Error: af-packet: any: failed to find interface type: No such device
+[21 - W#01-any] 2025-10-27 06:58:05 Error: af-packet: any: failed to find interface: No such device
+[21 - W#01-any] 2025-10-27 06:58:05 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:58:05 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 06:58:09 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:58:09 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:58:09 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:58:09 Error: af-packet: any: failed to find interface type: No such device
+[20 - W#01-any] 2025-10-27 06:58:09 Error: af-packet: any: failed to find interface: No such device
+[20 - W#01-any] 2025-10-27 06:58:09 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:58:09 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 06:58:16 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:58:16 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:58:16 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:58:16 Error: af-packet: any: failed to find interface type: No such device
+[21 - W#01-any] 2025-10-27 06:58:16 Error: af-packet: any: failed to find interface: No such device
+[21 - W#01-any] 2025-10-27 06:58:16 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:58:16 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 06:58:29 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:58:29 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:58:30 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:58:30 Error: af-packet: any: failed to find interface type: No such device
+[20 - W#01-any] 2025-10-27 06:58:30 Error: af-packet: any: failed to find interface: No such device
+[20 - W#01-any] 2025-10-27 06:58:30 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:58:30 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 06:58:56 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:58:56 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:58:56 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:58:56 Error: af-packet: any: failed to find interface type: No such device
+[20 - W#01-any] 2025-10-27 06:58:57 Error: af-packet: any: failed to find interface: No such device
+[20 - W#01-any] 2025-10-27 06:58:57 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:58:57 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 06:59:48 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 06:59:48 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 06:59:48 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 06:59:48 Error: af-packet: any: failed to find interface type: No such device
+[20 - W#01-any] 2025-10-27 06:59:49 Error: af-packet: any: failed to find interface: No such device
+[20 - W#01-any] 2025-10-27 06:59:49 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 06:59:49 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 07:00:49 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 07:00:49 Error: af-packet: Problem with config file
+[1 - Suricata-Main] 2025-10-27 07:00:49 Warning: ioctl: Failure when trying to get MTU via ioctl for 'any': No such device (19)
+[1 - Suricata-Main] 2025-10-27 07:00:49 Error: af-packet: any: failed to find interface type: No such device
+[20 - W#01-any] 2025-10-27 07:00:49 Error: af-packet: any: failed to find interface: No such device
+[20 - W#01-any] 2025-10-27 07:00:49 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-10-27 07:00:49 Error: threads: thread "W#01-any" failed to start: flags 0423
+[1 - Suricata-Main] 2025-10-27 07:09:10 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 07:09:11 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 07:55:37 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 07:55:39 Notice: device: eth0: packets: 34, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 07:55:41 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 07:55:41 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 07:56:14 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 07:56:16 Notice: device: eth0: packets: 35, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 07:56:17 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 07:56:18 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 07:57:11 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 07:57:11 Notice: device: eth0: packets: 27, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-10-27 07:57:13 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-10-27 07:57:14 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-10-27 11:29:37 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-10-27 11:29:39 Notice: device: eth0: packets: 458, drops: 0 (0.00%), invalid chksum: 0

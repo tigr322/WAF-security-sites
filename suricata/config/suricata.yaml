@@ -1,0 +1,41 @@
+﻿%YAML 1.1
+---
+
+default-log-dir: /var/log/suricata/
+
+# Логирование
+logging:
+  default-log-level: notice
+
+# Вывод
+outputs:
+  - eve-log:
+      enabled: yes
+      filetype: regular
+      filename: eve.json
+      types:
+        - alert
+        - http
+        - dns
+        - tls
+
+  - fast:
+      enabled: yes
+      filename: fast.log
+      format: "[%t] %i %C - %m"
+
+# ТОЛЬКО локальные правила - отключаем ET правила
+default-rule-path: /var/lib/suricata/rules
+rule-files:
+  - local.rules
+
+# Отключаем проблемные ET правила
+suricata-load-rules: no
+
+# Настройки сети
+af-packet:
+  - interface: any
+    cluster-id: 99
+    cluster-type: cluster_flow
+    defrag: yes
+    use-mmap: yes

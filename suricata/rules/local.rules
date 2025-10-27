@@ -1,0 +1,14 @@
+﻿# Web Application Firewall Rules
+alert http any any -> any any (msg:"SQL Injection UNION SELECT"; flow:established,to_server; content:"union"; nocase; content:"select"; nocase; http_uri; classtype:web-application-attack; sid:1000001; rev:1;)
+alert http any any -> any any (msg:"SQL Injection OR 1=1"; flow:established,to_server; content:"or"; nocase; content:"1=1"; nocase; http_uri; classtype:web-application-attack; sid:1000002; rev:1;)
+alert http any any -> any any (msg:"XSS Script Tag"; flow:established,to_server; content:"<script"; nocase; http_client_body; classtype:web-application-attack; sid:1000003; rev:1;)
+alert http any any -> any any (msg:"XSS JavaScript"; flow:established,to_server; content:"javascript:"; nocase; http_uri; classtype:web-application-attack; sid:1000004; rev:1;)
+alert http any any -> any any (msg:"Path Traversal"; flow:established,to_server; content:"../"; http_uri; classtype:web-application-attack; sid:1000005; rev:1;)
+alert http any any -> any any (msg:"Command Injection"; flow:established,to_server; content:"|3b|"; content:"ls"; nocase; http_uri; classtype:web-application-attack; sid:1000006; rev:1;)
+
+# Network scanning detection
+alert ip any any -> any any (msg:"Possible Port Scan"; flow:stateless; flags:S,12; threshold: type both, track by_dst, count 5, seconds 10; classtype:attempted-recon; sid:1000100; rev:1;)
+
+# Suspicious user agents
+alert http any any -> any any (msg:"Suspicious User Agent - sqlmap"; flow:established,to_server; http.user_agent; content:"sqlmap"; nocase; classtype:web-application-attack; sid:1000200; rev:1;)
+alert http any any -> any any (msg:"Suspicious User Agent - nmap"; flow:established,to_server; http.user_agent; content:"nmap"; nocase; classtype:attempted-recon; sid:1000201; rev:1;)
