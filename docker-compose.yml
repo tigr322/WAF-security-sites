@@ -11,16 +11,22 @@ services:
       - SYS_NICE
     volumes:
       - ./suricata-logs:/var/log/suricata
+      - ./suricata/config:/etc/suricata  # ← УБРАТЬ :ro
+      - ./suricata/lib:/var/lib/suricata  # ← ДОБАВИТЬ ДЛЯ ПРАВИЛ
+      - ./suricata/cache:/var/cache/suricata  # ← ДОБАВИТЬ ДЛЯ КЕША
+      -  /var/lib/suricata/rules/suricata.rules  # ← ЯВНО УКАЗАТЬ ПРАВИЛА
     command:
+      - -c
+      - /etc/suricata/suricata.yaml
       - -i
-      - any
+      - eth0
     restart: unless-stopped
-
+    privileged: true
   nginx-gateway:
     image: docker.io/nginx:1.24-alpine
     container_name: nginx-gateway
     ports:
-      - "8082:80"
+      - "80:80"  # ← ТОЛЬКО WAF слушает порт 80
     networks:
       - security-net
     volumes:
@@ -29,4 +35,4 @@ services:
 
 networks:
   security-net:
-    driver: bridge
+    external: true  # ← использовать ВНЕШНЮЮ сеть, а не создавать новую

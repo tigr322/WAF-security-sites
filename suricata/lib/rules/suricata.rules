@@ -1,0 +1,31 @@
+# Emergency rules - высокоприоритетные правила
+
+# SQL Injection detection
+alert tcp any any -> any any (msg:"ET WEB_SPECIFIC_APPS SQL Injection Attempt"; flow:established,to_server; content:"union"; nocase; content:"select"; nocase; pcre:"/(union|select).*from/i"; classtype:web-application-attack; sid:1000001; rev:1;)
+
+# XSS detection
+alert http any any -> any any (msg:"ET WEB_SPECIFIC_APPS XSS Attempt"; flow:established,to_server; pcre:"/<script|<iframe|javascript:|onmouseover=|onload=/i"; classtype:web-application-attack; sid:1000002; rev:1;)
+
+# Directory traversal
+alert tcp any any -> any any (msg:"ET WEB_SPECIFIC_APPS Directory Traversal"; flow:established,to_server; content:"../"; nocase; classtype:web-application-attack; sid:1000003; rev:1;)
+
+# Shell command injection
+alert tcp any any -> any any (msg:"ET WEB_SPECIFIC_APPS Command Injection"; flow:established,to_server; content:"/bin/bash"; nocase; content:"/bin/sh"; nocase; classtype:web-application-attack; sid:1000004; rev:1;)
+
+# Port scan detection
+alert tcp any any -> any any (msg:"ET SCAN Potential Port Scan"; flow:stateless; flags:S,12; threshold: type both, track by_dst, count 20, seconds 60; classtype:attempted-recon; sid:1000005; rev:1;)
+
+# NMAP scan detection
+alert tcp any any -> any any (msg:"ET SCAN NMAP Scripting Engine"; flow:established; content:"nmap"; nocase; classtype:attempted-recon; sid:1000006; rev:1;)
+
+# Suspicious user agents
+alert http any any -> any any (msg:"ET WEB_SPECIFIC_APPS Suspicious User Agent"; flow:established,to_server; content:"User-Agent"; nocase; pcre:"/(nmap|nikto|sqlmap|w3af|acunetix|nessus|metasploit)/i"; classtype:web-application-attack; sid:1000007; rev:1;)
+
+# PHP code injection
+alert tcp any any -> any any (msg:"ET WEB_SPECIFIC_APPS PHP Injection"; flow:established,to_server; content:"<?php"; nocase; content:"system("; classtype:web-application-attack; sid:1000008; rev:1;)
+
+# File inclusion
+alert tcp any any -> any any (msg:"ET WEB_SPECIFIC_APPS File Inclusion"; flow:established,to_server; content:"include"; nocase; content:".php"; classtype:web-application-attack; sid:1000009; rev:1;)
+
+# HTTP protocol anomalies
+alert http any any -> any any (msg:"ET WEB_SPECIFIC_APPS HTTP Protocol Anomaly"; flow:established,to_server; http.method; content:"GET"; nocase; http.uri; content:".."; classtype:web-application-attack; sid:1000010; rev:1;)

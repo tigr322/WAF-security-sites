@@ -2,7 +2,6 @@
 ---
 
 default-log-dir: /var/log/suricata/
-
 # Логирование
 logging:
   default-log-level: notice
@@ -27,7 +26,7 @@ outputs:
 # ТОЛЬКО локальные правила - отключаем ET правила
 default-rule-path: /var/lib/suricata/rules
 rule-files:
-  - local.rules
+  - security.rules
 
 # Отключаем проблемные ET правила
 suricata-load-rules: no
